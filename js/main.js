@@ -6,7 +6,7 @@
     document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.set===l))});
     try{localStorage.setItem('mad-lang',l)}catch(e){}
   }
-  var saved=null;try{saved=localStorage.getItem('mad-lang')}catch(e){}
+  var saved=new URLSearchParams(location.search).get('lang');try{saved=saved||localStorage.getItem('mad-lang')}catch(e){}
   setLang(saved==='en'||saved==='es'?saved:'es');
   document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.set)})});
 
