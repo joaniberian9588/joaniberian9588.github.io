@@ -133,9 +133,9 @@
         <article class="panel">
           <span class="label status"><i></i><span lang="es">Producto propio</span><span lang="en">Side product</span></span>
           <h3>eTable</h3>
-          <p><span lang="es">Sistema de gestión de restaurante para tablets Android, offline-first: la sala sigue funcionando aunque se caiga el wifi.</span><span lang="en">Restaurant management system for Android tablets, offline-first: the floor keeps working when the wifi drops.</span></p>
-          <div class="tags"><span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">Firebase</span></div>
-          <a class="btn more" href="https://github.com/mad0021/etable" target="_blank" rel="noopener" style="align-self:flex-start"><span lang="es">Ver repositorio</span><span lang="en">View repo</span> ↗</a>
+          <p><span lang="es">Gestión de sala para restaurantes en tablets Android: comandas por etapas, mesas en tiempo real y seguridad por rol aplicada en el servidor.</span><span lang="en">Restaurant floor management for Android tablets: orders by course, live tables and role-based security enforced on the server.</span></p>
+          <div class="tags"><span class="tag">Kotlin</span><span class="tag">Jetpack Compose</span><span class="tag">Supabase</span></div>
+          <a class="btn more" href="https://github.com/mad0021/etable-supabase" target="_blank" rel="noopener" style="align-self:flex-start"><span lang="es">Ver repositorio</span><span lang="en">View repo</span> ↗</a>
         </article>
       </div>
     </div>
@@ -147,16 +147,16 @@
       <h2 id="h-work"><span lang="es">Proyectos públicos.</span><span lang="en">Public projects.</span></h2>
       <p class="lede"><span lang="es">El trabajo en Power Platform vive en entornos de clientes; esto es lo que se puede enseñar en abierto.</span><span lang="en">Power Platform work lives in client environments; this is what can be shown in the open.</span></p>
       <div class="work">
-        <a class="proj" href="https://github.com/mad0021/etable" target="_blank" rel="noopener">
+        <a class="proj" href="https://github.com/mad0021/etable-supabase" target="_blank" rel="noopener">
           <span class="label">P-01</span>
-          <div><h3>eTable</h3><p><span lang="es">Gestión de restaurante en tablets Android. Roles de administración y camareros, sincronización en tiempo real y modo sin conexión.</span><span lang="en">Restaurant management on Android tablets. Admin and waiter roles, real-time sync and offline mode.</span></p></div>
-          <div class="tags"><span class="tag">Kotlin</span><span class="tag">Compose</span><span class="tag">Firestore</span><span class="tag">Material 3</span></div>
+          <div><h3>eTable</h3><p><span lang="es">Gestión de sala en tablets Android. Roles de administración y camareros, sincronización en tiempo real con Supabase y reglas de seguridad probadas en CI.</span><span lang="en">Floor management on Android tablets. Admin and waiter roles, real-time sync on Supabase and security rules tested in CI.</span></p></div>
+          <div class="tags"><span class="tag">Kotlin</span><span class="tag">Compose</span><span class="tag">Supabase</span><span class="tag">Material 3 Expressive</span></div>
           <span class="arrow">↗</span>
         </a>
       </div>
       <div class="manifest" aria-label="eTable">
-        <div><span class="label">eTable / 01</span><h4><span lang="es">Multi-rol</span><span lang="en">Multi-role</span></h4><p><span lang="es">Panel de administración, interfaz de camareros y permisos por rol.</span><span lang="en">Admin dashboard, waiter interface and per-role permissions.</span></p></div>
-        <div><span class="label">eTable / 02</span><h4><span lang="es">Tiempo real + offline</span><span lang="en">Real-time + offline</span></h4><p><span lang="es">Firestore sincroniza entre tablets; sin conexión sigue funcionando.</span><span lang="en">Firestore syncs across tablets; it keeps working offline.</span></p></div>
+        <div><span class="label">eTable / 01</span><h4><span lang="es">Multi-rol</span><span lang="en">Multi-role</span></h4><p><span lang="es">Panel de administración, interfaz de camareros y permisos por rol que impone Postgres.</span><span lang="en">Admin dashboard, waiter interface and per-role permissions enforced by Postgres.</span></p></div>
+        <div><span class="label">eTable / 02</span><h4><span lang="es">Tiempo real</span><span lang="en">Real-time</span></h4><p><span lang="es">Supabase Realtime sincroniza mesas y pedidos entre tablets al instante.</span><span lang="en">Supabase Realtime syncs tables and orders across tablets instantly.</span></p></div>
         <div><span class="label">eTable / 03</span><h4><span lang="es">CA · ES · EN</span><span lang="en">CA · ES · EN</span></h4><p><span lang="es">Tres idiomas con cambio en caliente y avisos por voz para cocina.</span><span lang="en">Three languages switched live, plus spoken alerts for the kitchen.</span></p></div>
       </div>
       <div class="shots" aria-labelledby="h-shots">
@@ -166,15 +166,15 @@
             <h3 id="h-shots"><span lang="es">Míralo funcionar.</span><span lang="en">See it running.</span></h3>
           </div>
           <p><span lang="es">Sin mockups. Seis capturas de la app real, atenuadas en reposo y a todo color cuando señalas una. Haz clic para verla a tamaño completo, o abre la galería entera.</span><span lang="en">No mockups. Six shots from the real app, dimmed at rest and full colour when you point at one. Click for full size, or open the whole gallery.</span></p>
-          <a class="btn" href="https://github.com/mad0021/etable/tree/HEAD/app/src/main/java/cat/dam/mamadou/etable/docs/screenshots" target="_blank" rel="noopener"><span lang="es">Las 10 capturas</span><span lang="en">All 10 shots</span> ↗</a>
+          <a class="btn" href="https://github.com/mad0021/etable-supabase#screenshots" target="_blank" rel="noopener"><span lang="es">Ver en GitHub</span><span lang="en">View on GitHub</span> ↗</a>
         </div>
         <ul class="shot-grid">
-          <li><button type="button" class="shot" data-i="0"><img src="assets/etable/rol.webp" alt="eTable — Selección de rol" loading="lazy" width="400" height="632"><span class="cap"><span class="label">S-01</span><span><span lang="es">Selección de rol</span><span lang="en">Role selection</span></span></span><span class="desc" hidden><span lang="es">Camarero o administrador, una tablet para cada uno.</span><span lang="en">Waiter or admin, one tablet each.</span></span></button></li>
-          <li><button type="button" class="shot" data-i="1"><img src="assets/etable/admin.webp" alt="eTable — Acceso admin" loading="lazy" width="400" height="632"><span class="cap"><span class="label">S-02</span><span><span lang="es">Acceso admin</span><span lang="en">Admin sign-in</span></span></span><span class="desc" hidden><span lang="es">Credenciales por rol con Firebase Auth.</span><span lang="en">Per-role credentials with Firebase Auth.</span></span></button></li>
-          <li><button type="button" class="shot" data-i="2"><img src="assets/etable/sala.webp" alt="eTable — Sala" loading="lazy" width="400" height="632"><span class="cap"><span class="label">S-03</span><span><span lang="es">Sala</span><span lang="en">Floor</span></span></span><span class="desc" hidden><span lang="es">Mesas libres y ocupadas, sincronizadas en tiempo real.</span><span lang="en">Free and taken tables, synced in real time.</span></span></button></li>
-          <li><button type="button" class="shot" data-i="3"><img src="assets/etable/pedido.webp" alt="eTable — Pedido por etapas" loading="lazy" width="400" height="632"><span class="cap"><span class="label">S-04</span><span><span lang="es">Pedido por etapas</span><span lang="en">Staged order</span></span></span><span class="desc" hidden><span lang="es">Entrantes, principales y postres, en el orden de cocina.</span><span lang="en">Starters, mains and desserts, in kitchen order.</span></span></button></li>
-          <li><button type="button" class="shot" data-i="4"><img src="assets/etable/ajustes.webp" alt="eTable — Ajustes" loading="lazy" width="400" height="632"><span class="cap"><span class="label">S-05</span><span><span lang="es">Ajustes</span><span lang="en">Settings</span></span></span><span class="desc" hidden><span lang="es">Temas de color y solicitud de descanso.</span><span lang="en">Colour themes and break requests.</span></span></button></li>
-          <li><button type="button" class="shot" data-i="5"><img src="assets/etable/usuarios.webp" alt="eTable — Usuarios" loading="lazy" width="400" height="632"><span class="cap"><span class="label">S-06</span><span><span lang="es">Usuarios</span><span lang="en">Users</span></span></span><span class="desc" hidden><span lang="es">Alta, edición y roles del personal.</span><span lang="en">Staff accounts, edits and roles.</span></span></button></li>
+          <li><button type="button" class="shot" data-i="0"><img src="assets/etable/sala.webp" alt="eTable — Sala" loading="lazy" width="400" height="859"><span class="cap"><span class="label">S-01</span><span><span lang="es">Sala</span><span lang="en">Floor</span></span></span><span class="desc" hidden><span lang="es">Mesas libres, ocupadas y reservadas, sincronizadas en tiempo real.</span><span lang="en">Free, taken and reserved tables, synced in real time.</span></span></button></li>
+          <li><button type="button" class="shot" data-i="1"><img src="assets/etable/mesa.webp" alt="eTable — Detalle de mesa" loading="lazy" width="400" height="859"><span class="cap"><span class="label">S-02</span><span><span lang="es">Detalle de mesa</span><span lang="en">Table details</span></span></span><span class="desc" hidden><span lang="es">Comensales y comanda de cada mesa.</span><span lang="en">Guests and the order for each table.</span></span></button></li>
+          <li><button type="button" class="shot" data-i="2"><img src="assets/etable/pedido.webp" alt="eTable — Pedido por etapas" loading="lazy" width="400" height="859"><span class="cap"><span class="label">S-03</span><span><span lang="es">Pedido por etapas</span><span lang="en">Staged order</span></span></span><span class="desc" hidden><span lang="es">Entrantes, principales y postres, en el orden de cocina.</span><span lang="en">Starters, mains and desserts, in kitchen order.</span></span></button></li>
+          <li><button type="button" class="shot" data-i="3"><img src="assets/etable/pedidos-admin.webp" alt="eTable — Pedidos" loading="lazy" width="400" height="859"><span class="cap"><span class="label">S-04</span><span><span lang="es">Pedidos</span><span lang="en">Orders</span></span></span><span class="desc" hidden><span lang="es">Pendientes, en preparación, listos e historial.</span><span lang="en">Pending, in progress, ready and history.</span></span></button></li>
+          <li><button type="button" class="shot" data-i="4"><img src="assets/etable/carta.webp" alt="eTable — Carta" loading="lazy" width="400" height="859"><span class="cap"><span class="label">S-05</span><span><span lang="es">Carta</span><span lang="en">Menu</span></span></span><span class="desc" hidden><span lang="es">Platos con foto, por categoría.</span><span lang="en">Dishes with photos, by category.</span></span></button></li>
+          <li><button type="button" class="shot" data-i="5"><img src="assets/etable/descansos.webp" alt="eTable — Descansos" loading="lazy" width="400" height="859"><span class="cap"><span class="label">S-06</span><span><span lang="es">Descansos</span><span lang="en">Break requests</span></span></span><span class="desc" hidden><span lang="es">El personal pide descanso y el admin lo resuelve.</span><span lang="en">Staff request a break and the admin resolves it.</span></span></button></li>
         </ul>
       </div>
       <dialog id="viewer" aria-label="eTable">
@@ -293,7 +293,7 @@
         <div class="links">
           <a href="https://github.com/mad0021" target="_blank" rel="noopener"><span>GitHub — @mad0021</span><span>↗</span></a>
           <a href="https://www.linkedin.com/in/madev021/" target="_blank" rel="noopener"><span>LinkedIn — madev021</span><span>↗</span></a>
-          <a href="https://github.com/mad0021/etable" target="_blank" rel="noopener"><span>eTable</span><span>↗</span></a>
+          <a href="https://github.com/mad0021/etable-supabase" target="_blank" rel="noopener"><span>eTable</span><span>↗</span></a>
         </div>
       </div>
       <figure class="fig horizon"><canvas data-fig="terrain" width="480" height="120" role="img" aria-label="Horizonte de montañas tramado"></canvas><figcaption class="label"><span>fig. 03 — <span lang="es">horizonte</span><span lang="en">horizon</span></span></figcaption></figure>

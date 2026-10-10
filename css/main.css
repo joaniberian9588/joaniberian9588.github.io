@@ -172,7 +172,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 .shots-head p{margin:0;color:var(--ash);max-width:52ch}
 .shot-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
 .shot{all:unset;box-sizing:border-box;display:block;width:100%;cursor:zoom-in}
-.shot img{display:block;width:100%;height:auto;aspect-ratio:400/632;object-fit:cover;border:1px solid var(--line);filter:grayscale(1) brightness(.5) contrast(1.05);transition:filter .45s var(--ease-out,ease-out),transform .45s var(--ease-out,ease-out),border-color .45s}
+.shot img{display:block;width:100%;height:auto;aspect-ratio:400/859;object-fit:cover;border:1px solid var(--line);filter:grayscale(1) brightness(.5) contrast(1.05);transition:filter .45s var(--ease-out,ease-out),transform .45s var(--ease-out,ease-out),border-color .45s}
 .shot:hover img,.shot:focus-visible img{filter:none;border-color:var(--ash);transform:translateY(-4px)}
 .shot:focus-visible{outline:1px solid var(--bone);outline-offset:4px}
 .shot .cap{display:flex;gap:10px;margin-top:10px;font-family:var(--f-mono);font-size:12px;color:var(--ash)}
