@@ -190,7 +190,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 .v-ctl button{all:unset;cursor:pointer;font-family:var(--f-mono);font-size:13px;border:1px solid var(--line);padding:6px 12px}
 .v-ctl button:hover,.v-ctl button:focus-visible{border-color:var(--bone)}
 
-/* THEMES — palettes taken from each wallpaper (wallpapers: original art from mad0021/dev-portfolio) */
+/* THEMES — palettes taken from each wallpaper (wallpapers: original art from an earlier version of this portfolio) */
 :root{--w-rose:url(/assets/themes/rose.webp);--w-blue-hour:url(/assets/themes/blue-hour.webp);--w-red-august:url(/assets/themes/red-august.webp);--w-teal:url(/assets/themes/teal.webp);--w-forest:url(/assets/themes/forest.webp);--w-chrome:url(/assets/themes/chrome.webp);}
 html[data-theme="rose"]{--ink:#f2e4dd;--slab:#ead6cd;--line:#d7bcb1;--bone:#3b2420;--ash:#76574f;--dim:#725751;--seal:#b5483a;--wall:var(--w-rose);color-scheme:light;--seal-text:#ab4538}
 html[data-theme="blue-hour"]{--ink:#060a16;--slab:#0c1426;--line:#1e2a44;--bone:#dfe6f2;--ash:#8f9bb3;--dim:#768199;--seal:#e2452f;--wall:var(--w-blue-hour);color-scheme:dark;--seal-text:#e2452f}

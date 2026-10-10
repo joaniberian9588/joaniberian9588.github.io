@@ -118,8 +118,7 @@ full page, but the decorative canvases stay empty.
 - **Hero bust:** *Marble Bust of Marcus Aurelius (Roman Emperor 161–180 AD)*, photo on
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Marble_Bust_of_Marcus_Aurelius_(Roman_Emperor_161-180_AD)_(28273837396).jpg),
   released under **CC0**. The background was removed and the photo is dithered at runtime.
-- **Desktop wallpapers:** original artwork from
-  [mad0021/dev-portfolio](https://github.com/mad0021/dev-portfolio).
+- **Desktop wallpapers:** original artwork made for an earlier version of this portfolio.
 - **Anime-inspired themes:** fan homages built from palettes and simple procedural shapes. They
   are not affiliated with or endorsed by the rights holders, and no frames, characters or logos
   are used.
