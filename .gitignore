@@ -1,0 +1,9 @@
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local tool state
+.omc/
+.claude/
